@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio7</title>
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    
+
+</head>
+
+<body>
+
+  <!--navegador-->
+  <header class="cd-auto-hide-header">
+    <div class="logo"><a href="#0"> <img src="img/logo.png" alt="logo"></a></div>
+  
+    <nav class="cd-primary-nav">
+      <a href="#cd-navigation" class="nav-trigger">
+        <span>
+          <em aria-hidden="true"></em>
+          Menu
+        </span>
+      </a> <!-- .nav-trigger -->
+  
+      <ul id="cd-navigation">
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="obrasdearte.html">OBRAS DE ARTE</a></li>
+        <li><a href="video.html">VIDEOS ARTISTAS</a></li>
+        
+      </ul>
+    </nav> <!-- .cd-primary-nav -->
+  </header> <!-- .cd-auto-hide-header -->
+
+ 
+ 
+
+
+
+
+  <!-- fin contenedor de fotos-->
+
+  <h1> VIDEOS  </h1>
+      
+
+  
+<!--VIDEOS-->
+<div class="video1">
+<iframe width="860" height="515" src="https://www.youtube.com/embed/UMH8b-Ip5uM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+
+
+
+  <!--video2-->
+  <div class="video2">
+  <iframe width="860" height="515" src="https://www.youtube.com/embed/rnfpBTU5WWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+  
+   <!-- inicio contenedor final-->
+
+   <footer class="contenedor-fi">
+
+
+    <!-- inicio caja1 -->
+    <div class="caja">
+
+        <h2>Leonardo Da Vinci</h2>
+        <p>
+            “La pintura es poesía muda; la poesía pintura ciega”             
+        </p>
+    </div>
+    <!-- fin caja1 -->
+
+    <div class="caja">
+
+        <h2>Salvador Dalí</h2>
+        <p>
+            
+            Luna estática, eje que no perturba el movimiento.
+
+    Gira el engrane del mundo,
+
+    la forma de todas las formas
+
+    se da cita en el vaivén cíclico
+
+    que va desnudando al personaje.
+
+        </p>
+    </div>
+
+    <div class="caja">
+
+        <h2> Marcel Duchamp y Man Ray  </h2>
+        <p>
+           
+            perdóname por haberte ayudado a comprender
+            que no estás hecha sólo de palabras.
+        
+         </p>
+    </div>
+
+</footer>
+ <!--  fin contenedor final-->
+
+  
+
+<!--java-->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+ <!-- Initialize Swiper -->
+ <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+  
+  <!--FIN SLIDER-->
+<!-- .cd-main-content -->
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+</script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+
+</body>
+</html>
